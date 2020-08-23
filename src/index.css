@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/*input and button
+=====================================*/
+
+input, button {
+  display: block;
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+
+  font-size: 16px;
+
+
+  border-radius: 5px;
+  outline:none;
+  border: none;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+button{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 18px;
+  font-family:  sans-serif;
+  font-weight: 700;
+
+  padding: 10px 50px;
+
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  color: bisque;
+  transition: all .2s linear;
+}
+button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.btn {
+  margin-left: 30px;
+}
+
+
+/*weather-app-style
+=====================================*/
+
+h1 {
+  font-family: sans-serif;
+
+  color: wheat;
+  text-transform: uppercase;
+}
+
+.container {
+  border-radius: 20px;
+  display: flex;
+  max-width: 1140px;
+  margin: 100px auto;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, .7);
+}
+
+.image {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.title{
+  text-align: center;
+}
+
+.weatherApp{
+  padding: 50px 140px;
+  text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+p{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+
+  color: bisque;
+}
